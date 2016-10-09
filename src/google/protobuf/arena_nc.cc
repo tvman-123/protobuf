@@ -40,6 +40,6 @@ void ArenaPrivateConstructor() {
   google::protobuf::Arena arena;
   protobuf_unittest::TestAllTypes message(&arena);
 }
-
+}  
 #endif
-}  // namespace google
+// namespace google
